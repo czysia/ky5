@@ -1,0 +1,6 @@
+cau lenh cap nhat thu vien( khoang 2 thang 1 lan)
+	npm install -g expo-cli
+tao project
+	expo init Pr1(ten project) --template (blank or tabs or .....)
+
+render() Hàm này sẽ định nghĩa các thành phần hiển thị lên giao diện ứng dụng
