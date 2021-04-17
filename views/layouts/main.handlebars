@@ -52,7 +52,24 @@
     <div class="container my-auto">
         <div class="row">
             <div class="col-lg-10 mx-auto">
-                <h1 class="text-uppercase"><strong>Dating, make new friends &amp;meet new people</strong></h1><button class="btn btn-primary" onclick="document.getElementById('id01').style.display='block'"type="button">login</button>
+                <h1 class="text-uppercase">
+                    <strong>Dating, make new friends &amp;meet new people</strong>
+                </h1>
+                <button class="btn btn-primary" onclick="document.getElementById('id01').style.display='block'"type="button">login</button>
+                <button class="btn btn-primary" onclick="document.getElementById('id02').style.display='block'"type="button">login</button>
+                <div id="id02" class="modal">
+  <span onclick="document.getElementById('id02').style.display='none'"
+        class="close2" title="Close Modal">&times;</span>
+                    <form class="modal-content animate" action="/action_page.php">
+                        <label for="uname"><b>Username</b></label>
+                        <input type="text" placeholder="Enter Username" name="uname" required>
+
+                        <label for="psw"><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+
+                        <button type="submit">Login</button>
+                    </form>
+
                 <div id="id01" class="modal">
   <span onclick="document.getElementById('id01').style.display='none'"
         class="close" title="Close Modal">&times;</span>
