@@ -63,27 +63,54 @@
 
                     <!-- Modal Content -->
                     <form class="modal-content animate" action="/action_page.php">
-                        <div class="imgcontainer">
+<!--                        <div class="imgcontainer">-->
+<!--                            <br>-->
+<!--                        </div>-->
+
+<!--                        <div class="container">-->
+<!--                            <label for="uname"><b>Username</b></label>-->
+<!--                            <input type="text" placeholder="Enter Username" name="uname" required>-->
+
+<!--                            <label for="psw"><b>Password</b></label>-->
+<!--                            <input type="password" placeholder="Enter Password" name="psw" required>-->
+
+<!--                            <button type="submit">Login</button>-->
+<!--                            <label>-->
+<!--                                <input type="checkbox" checked="checked" name="remember"> Remember me-->
+<!--                            </label>-->
+<!--                        </div>-->
+
+<!--                        <div class="container" style="background-color:#f1f1f1">-->
+<!--                            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>-->
+<!--                            <span class="psw">Forgot <a href="#">password?</a></span>-->
+<!--                        </div>-->
+                        <form class="modal-content animate" action="/action_page.php" action="/insertUser" method="post" enctype="multipart/form-data">
+                            <li>
+                                <input name="username" placeholder="Enter username">
+                            </li>
                             <br>
-                        </div>
-
-                        <div class="container">
-                            <label for="uname"><b>Username</b></label>
-                            <input type="text" placeholder="Enter Username" name="uname" required>
-
-                            <label for="psw"><b>Password</b></label>
-                            <input type="password" placeholder="Enter Password" name="psw" required>
-
-                            <button type="submit">Login</button>
-                            <label>
-                                <input type="checkbox" checked="checked" name="remember"> Remember me
-                            </label>
-                        </div>
-
-                        <div class="container" style="background-color:#f1f1f1">
-                            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-                            <span class="psw">Forgot <a href="#">password?</a></span>
-                        </div>
+                            <li>
+                                <input name="password" placeholder="Enter password" type="password">
+                            </li>
+                            <br>
+                            <li>
+                                <input name="name" placeholder="Enter name">
+                            </li>
+                            <br>
+                            <li>
+                                <input name="address" placeholder="Enter address">
+                            </li>
+                            <br>
+                            <li>
+                                <input name="number_phone" placeholder="Enter number phone">
+                            </li>
+                            <br>
+                            <li>
+                                <input name="avatar" type="file">
+                            </li>
+                            <li>
+                                <button type="submit">Save</button>
+                            </li>
                     </form>
                 </div>
             </div>
